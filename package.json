@@ -4,7 +4,7 @@
   "description": "js lib",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/index.spec.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/gavinning/lib/issues"
   },
-  "homepage": "https://github.com/gavinning/lib#readme"
+  "homepage": "https://github.com/gavinning/lib#readme",
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  }
 }
